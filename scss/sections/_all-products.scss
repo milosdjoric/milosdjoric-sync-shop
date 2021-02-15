@@ -1,0 +1,108 @@
+.all-products {
+  padding: 40px 0 40px 0;
+  font-family: $font-base;
+
+  .all-products-filters {
+    padding: 20px 0 0 0 ;
+    text-align: center;
+  }
+
+  .headline {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+
+    .col {
+      padding: 0;
+    }
+
+    .text-right {
+      height: 50px;
+
+      span {
+        line-height: 50px;
+      }
+    }
+  }
+
+  .add-to-cart {
+    text-transform: uppercase;
+    padding: 8px 22px;
+    border-radius: 0;
+    color: #000000;
+    min-width: 135px;
+
+    &:hover {
+      color: #f9f9f9;
+      background-color: #000000;
+    }
+  }
+
+  .list {
+    .first-row, .second-row {
+      .outer-wrapper {
+        height: 500px;
+        margin: 40px 0 20px 0;
+
+        .inner-wrapper {
+
+          #all-products-img-1 {
+            background-image: url('images/_all-products/all-products-1.png');
+            position: center;
+          }
+
+          #all-products-img-2 {
+            background-image: url('images/_all-products/all-products-3.png');
+          }
+
+          #all-products-img-3 {
+            background-image: url('images/_all-products/all-products-5.png');
+          }
+
+          #all-products-img-4 {
+            background-image: url('images/_all-products/all-products-7.png');
+          }
+
+          #all-products-img-5 {
+            background-image: url('images/_all-products/all-products-2.png');
+          }
+
+          #all-products-img-6 {
+            background-image: url('images/_all-products/all-products-4.png');
+          }
+
+          #all-products-img-7 {
+            background-image: url('images/_all-products/all-products-6.png');
+          }
+
+          #all-products-img-8 {
+            background-image: url('images/_all-products/all-products-8.png');
+          }
+
+          .img {
+            max-height: 330px;
+            background-size: cover;
+            background-position: center;
+
+            img {
+              visibility: hidden;
+            }
+          }
+
+
+          .text-wrapper {
+            padding-top: 20px;
+            text-align: center;
+
+            .new-products-name {
+              font-size: 16px;
+            }
+
+            .new-products-price {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}

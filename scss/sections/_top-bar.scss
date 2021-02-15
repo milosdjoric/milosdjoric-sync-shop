@@ -1,0 +1,24 @@
+.top-line {
+  background-color: gray;
+  padding: 10px 0;
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+    li {
+      padding-right: 5px;
+      text-decoration: none;
+    }
+
+    &.social {
+      justify-content: left;
+    }
+
+    &.menu {
+      justify-content: flex-end;
+    }
+  }
+
+}

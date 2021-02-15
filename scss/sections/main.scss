@@ -1,0 +1,26 @@
+@import 'top-bar';
+@import 'header';
+@import 'hero';
+@import 'new-products';
+@import 'categories';
+@import 'advice';
+@import 'ideas';
+@import "blog";
+@import "all-products";
+
+ul {
+  padding: 0;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}

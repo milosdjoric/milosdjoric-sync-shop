@@ -1,0 +1,63 @@
+.hero {
+  background-image: url('images/_hero/hero-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 0;
+  position: relative;
+  z-index: 2;
+  font-family: $font-base;
+
+  h1, p {
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #9B9B9B;
+  }
+
+  .inner-wrapper {
+    color: white;
+  }
+
+  .shop-now {
+    text-transform: uppercase;
+    padding: 8px 22px;
+    border-radius: 0;
+    color: #000000;
+    min-width: 135px;
+
+    .shop-now-button {
+      color: white;
+    }
+
+    span:first-child {
+      display: block;
+    }
+
+    span:last-child {
+      display: none;
+    }
+
+    &:hover {
+      color: #f9f9f9;
+      background-color: #000000;
+
+      span:first-child {
+        display: none;
+      }
+
+      span:last-child {
+        display: block;
+      }
+    }
+  }
+
+}

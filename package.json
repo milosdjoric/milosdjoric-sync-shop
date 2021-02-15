@@ -1,0 +1,18 @@
+{
+  "name": "milosdjoric-synctest",
+  "version": "1.0.0",
+  "description": "SyncIt - Shop Home Page",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Miloš Đorić",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp-sass": "^4.1.0"
+  }
+}

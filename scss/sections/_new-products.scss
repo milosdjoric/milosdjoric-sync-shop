@@ -1,0 +1,97 @@
+.new-products {
+  padding: 100px 0 20px 0;
+  font-family: $font-base;
+
+  .headline {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+
+    .col {
+      padding: 0;
+    }
+
+    .text-right {
+      height: 50px;
+
+      span {
+        line-height: 50px;
+      }
+    }
+  }
+
+  .slider {
+    .outer-wrapper {
+      margin: 40px 0 10px 20px;
+
+      .inner-wrapper {
+
+        #new-products-img-1 {
+          background-image: url('images/_new-products/new-prod-1.png');
+        }
+
+        #new-products-img-2 {
+          background-image: url('images/_new-products/new-prod-2.png');
+        }
+
+        #new-products-img-3 {
+          background-image: url('images/_new-products/new-prod-3.png');
+        }
+
+        #new-products-img-4 {
+          background-image: url('images/_new-products/new-prod-4.png');
+        }
+
+        #new-products-img-5 {
+          background-image: url('images/_new-products/new-prod-5.png');
+        }
+
+        .img {
+          max-height: 330px;
+          background-size: cover;
+          background-position: center;
+
+          img {
+            visibility: hidden;
+          }
+        }
+
+        .text-wrapper {
+          padding-top: 20px;
+          text-align: center;
+
+          .new-products-name {
+            font-size: 16px;
+          }
+
+          .new-products-price {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .slick-prev:before {
+      color: #000000;
+    }
+
+    .slick-next:before {
+      color: #000000;
+    }
+
+    .slick-prev:before {
+      content: "\f104";
+      color: #000000;
+      font-size: 30px;
+      font-family: 'Font Awesome\ 5 Free', serif;
+      font-weight: 900;
+    }
+
+    .slick-next:before {
+      content: "\f105";
+      color: #000000;
+      font-size: 30px;
+      font-family: 'Font Awesome\ 5 Free', serif;
+      font-weight: 900;
+    }
+  }
+}
