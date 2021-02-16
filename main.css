@@ -435,6 +435,80 @@
       .all-products .list .first-row .outer-wrapper .inner-wrapper .text-wrapper .new-products-price, .all-products .list .second-row .outer-wrapper .inner-wrapper .text-wrapper .new-products-price {
         font-weight: 700; }
 
+.footer {
+  padding: 40px 0 20px 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F4F4F4;
+  display: block; }
+  .footer .footer-links-title {
+    font-weight: 700;
+    margin-bottom: 48px; }
+  .footer .footer-links {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 18px; }
+  .footer .subscribe-section {
+    display: flex;
+    flex-direction: column; }
+    .footer .subscribe-section .subscribe-form {
+      padding: 30px 0 10px 0; }
+    .footer .subscribe-section .subscribe-title {
+      text-transform: uppercase;
+      margin-bottom: 44px;
+      font-weight: 300;
+      font-size: 26px;
+      line-height: 26px; }
+  .footer .footer-column-1 .footer-info-row {
+    display: flex; }
+  .footer .footer-column-1 .footer-fa {
+    margin-right: 16px; }
+  .footer .footer-column-1 .footer-fa-envelope {
+    margin-right: 10px; }
+  .footer .footer-column-1 .footer-text {
+    font-weight: 300;
+    font-size: 14px; }
+  .footer .footer-column-1 .footer-logo {
+    font-size: 43px;
+    line-height: 43px;
+    margin-bottom: 30px; }
+  .footer .social {
+    display: flex;
+    flex-direction: row; }
+    .footer .social li {
+      margin-right: 15px;
+      list-style: none; }
+  .footer .fab {
+    font-size: 18px; }
+  .footer .subscribe-button {
+    text-transform: uppercase;
+    padding: 8px 22px;
+    border: 1px solid #000000;
+    border-radius: 0;
+    color: #000000;
+    min-width: 135px; }
+    .footer .subscribe-button:hover {
+      color: #f9f9f9;
+      background-color: #000000; }
+  .footer #mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: row; }
+  .footer #mce-EMAIL {
+    height: 42px;
+    margin-right: 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #000;
+    color: #B7B7B7; }
+    .footer #mce-EMAIL:focus-visible {
+      border: 0;
+      border-bottom: 1px solid #000; }
+  .footer .footer-content {
+    margin-bottom: 30px; }
+  .footer .credits {
+    text-align: center;
+    font-size: 14px; }
+
 ul {
   padding: 0; }
 
