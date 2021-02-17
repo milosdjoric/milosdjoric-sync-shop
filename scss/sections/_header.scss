@@ -4,6 +4,12 @@
   position: relative;
   z-index: 999;
 
+  @media screen and (max-width: 576px) {
+    .text-right {
+      display: none;
+    }
+  }
+
   .social {
     line-height: 44px;
 
@@ -131,4 +137,16 @@
 
 .logo {
   font-size: 43px;
+}
+
+@media screen and (min-width: 769px) {
+  #search-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #search-second-row {
+    display: none;
+  }
 }

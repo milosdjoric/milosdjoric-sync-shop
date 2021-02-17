@@ -1,3 +1,13 @@
+@media screen and (max-width: 576px) {
+  .ideas .row .ideas-text-wrapper:first-child {
+    max-height: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
 .ideas {
   padding: 40px 0 20px 0;
   font-family: $font-base;
@@ -29,7 +39,7 @@
   }
 
   .ideas-text-wrapper {
-    padding: 100px 20px 30px 0;
+    padding: 100px 100px 60px 0;
 
     .ideas-heading {
       color: #000000;

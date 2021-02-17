@@ -1,9 +1,25 @@
+@media screen and (max-width: 576px) {
+  .add-to-cart {
+    margin: 5px 20px;
+  }
+
+  .all-products-filters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
 .all-products {
   padding: 40px 0 40px 0;
   font-family: $font-base;
 
   .all-products-filters {
-    padding: 20px 0 0 0 ;
+    padding: 20px 0 0 0;
     text-align: center;
   }
 

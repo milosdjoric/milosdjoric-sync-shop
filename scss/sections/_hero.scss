@@ -1,3 +1,29 @@
+@media screen and (max-width: 576px) {
+  .hero {
+    padding: 50px 0 !important;
+
+    .inner-wrapper {
+      h1, p {
+        padding: 5px;
+        color: #f9f9f9;
+        background: rgba(0, 0, 0, 0.7);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    .inner-wrapper {
+      h1, p {
+        padding: 5px;
+        color: #f9f9f9;
+        background: rgba(0, 0, 0, 0.7);
+      }
+    }
+  }
+}
+
 .hero {
   background-image: url('images/_hero/hero-background.png');
   background-position: center;
