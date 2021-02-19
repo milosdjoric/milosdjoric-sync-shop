@@ -17,6 +17,16 @@
 </head>
 <body>
 
+<div class="overlay" id="overlay">
+    <nav class="overlay-menu">
+        <ul>
+            <li><a href="#">Category 1</a></li>
+            <li><a href="#">Category 2</a></li>
+            <li><a href="#">Category 3</a></li>
+
+        </ul>
+    </nav>
+</div>
 <section class="container-fluid top-line p-0">
     <div class="row">
         <div class="col-10 offset-1">
@@ -57,12 +67,18 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid header p-0">
     <div class="row first-row ">
         <div class="col-10 offset-1">
             <div class="row">
-                <div class="col-2"></div>
+                <div class="col-2 first-line-icons">
+                    <div class="button_container" id="toggle">
+                        <span class="top"></span>
+                        <span class="middle"></span>
+                        <span class="bottom"></span>
+                    </div>
+
+                </div>
                 <div class="col-8 text-center logo">
                     <a href="/">Stuff</a>
                 </div>
@@ -116,7 +132,6 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid hero">
     <div class="row">
         <div class="col-10 offset-1">
@@ -140,7 +155,6 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid new-products">
     <div class="row">
         <div class="col-10 offset-1">
@@ -217,7 +231,6 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid advice">
     <div class="row">
         <div class="col-10 offset-1">
@@ -257,7 +270,6 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid categories">
     <div class="row">
         <div class="col-10 offset-1">
@@ -299,7 +311,6 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid ideas">
     <div class="row">
         <div class="col-12">
@@ -330,7 +341,6 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid blog">
     <div class="row">
         <div class="col-10 offset-1">
@@ -372,7 +382,6 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid all-products">
     <div class="row">
         <div class="col-10 offset-1">
@@ -521,7 +530,6 @@
         </div>
     </div>
 </section>
-
 <section class="container-fluid footer">
     <div class="row footer-content">
         <div class="col-10 offset-1">
@@ -642,6 +650,12 @@
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
     <script src="main.js"></script>
+    <script>
+        $('#toggle').click(function () {
+            $(this).toggleClass('active');
+            $('#overlay').toggleClass('open');
+        });
+    </script>
 </div>
 </body>
 </html>
